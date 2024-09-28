@@ -1,0 +1,25 @@
+.image {
+    width: 150px;
+    height: 200px;
+}
+
+.media-section {
+    display: flex;
+    gap: 5px;
+}
+
+.Foto-profil {
+    text-align: center;
+}
+
+.video-profil {
+    text-align: center;
+}
+
+.video {
+    margin-top: 20px;
+}
+
+.form {
+    width: 250px;
+}

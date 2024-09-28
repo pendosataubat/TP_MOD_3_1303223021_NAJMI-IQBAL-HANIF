@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="TP3.css">
+    <title>Profil Pribadi</title>
+</head>
+<body>
+    <!-- Judul halaman -->
+    <h1>Profil Pribadi</h1>
+
+    <!-- Bagian untuk gambar dan video -->
+    <div class="media-section">
+        <!-- Bagian unbtuk gambar -->
+        <div class="Foto-profil">
+            <p>Foto Profil</p>   <!-- Menampilkan teks Foto Profil di halaman browser -->
+            <img class="image"src="FotoDigistarTelkom.jpg" alt="Foto Profil" /> <!-- Menampilkan gambar profil -->
+        </div>
+        <!-- Bagian untuk video -->
+        <div class="video-profil">
+            <p>Video Perkenalan</p> <!-- Menampilkan teks Video Perkenalan di halaman browser -->
+            <video class="video" controls>
+                <source type="video/mp4" /> <!-- Video profil pengguna -->
+            </video>
+        </div>
+    </div>
+
+    <!-- Bagian tentang diri -->
+    <div class="about-me">
+        <h2>Tentang Saya</h2> <!-- Subjudul untuk tentang diri -->
+        <p>Halo! Saya adalah seorang pengembang web antusias dengan passion di bidang teknologi dan desain kreatif.</p> <!-- Menampilkan isi teks ini di halaman browser -->
+    </div>
+
+    <!-- Bagian keterampilan -->
+    <div class="skills">
+        <h2>Keterampilan</h2> <!-- Subjudul untuk keterampilan -->
+        <table> <!-- Membuat table di halaman browser -->
+            <tr> <!-- Membuat baris di table -->
+                <th>Keterampilan</th> <!-- Judul kolom untuk keterampilan -->
+                <th>Tingkat</th> <!-- Judul kolom untuk tingkat -->
+            </tr>
+            <tr>  <!-- Membuat baris di table -->
+                <td>HTML/CSS</td> <!-- Data untuk keterampilan -->
+                <td>Mahir</td> <!-- Data untuk tingkat -->
+            </tr>
+            <tr>  <!-- Membuat baris di table -->
+                <td>JavaScript</td> <!-- Data untuk keterampilan-->
+                <td>Menengah</td> <!-- Data untuk tingkat  -->
+            </tr>
+            <tr>  <!-- Membuat baris di table -->
+                <td>Python</td> <!-- Data untuk keterampilan-->
+                <td>Pemula</td> <!-- Data untuk tingkat-->
+            </tr>
+        </table>
+    </div>
+
+    <!-- Bagian untuk menghubungi -->
+    <div class="contact">
+        <h2>Hubungi Saya</h2> <!-- Subjudul untuk hubungi saya -->
+        <form class="form"> <!-- Form untuk mengumpulkan data -->
+            <label for="name">Nama:</label> <!-- Label untuk input nama -->
+            <input type="text" id="name" name="name" required /> <!-- Input untuk nama -->
+            
+            <label for="email">Email:</label> <!-- Label untuk input email -->
+            <input type="email" id="email" name="email" required /> <!-- Input untuk email -->
+
+            <label for="message">Pesan:</label> <!-- Label untuk input pesan -->
+            <textarea id="message" name="message" required></textarea> <!-- Input untuk pesan -->
+
+            <button type="submit">Kirim Pesan</button> <!-- button untuk mengirimkan data -->
+        </form>
+    </div>
+
+    <!-- Footer dengan tautan untuk media sosial -->
+    <div class="footer">
+        <h3>Media Sosial:</h3> <!-- Subjudul untuk media sosial-->
+        <p>
+            <a href="#">LinkedIn</a> <!-- Mengarahkan ke halaman LinkedIn -->
+            <a href="#">GitHub</a> <!-- Mengarahkan ke halaman Github -->
+            <a href="#">Twitter</a> <!-- Mengarahkan ke halaman Twitter -->
+        </p>
+    </div>
+</body>
+</html>
+
+<!-- ------------------------ FUNGSI - FUNGSI TAG HTML --------------------------------- -->
+
+<!-- <table> = Membuat table di HTML -->
+<!-- <tr> = Membuat baris di HTML -->
+<!-- <th> = Membuat header di table -->
+<!-- <td> = Membuat tempat untuk data data di dalam table -->
+<!-- <form> = mengumpulkan input dari pengguna, seperti data atau teks yang akan dikirim ke server. -->
+<!-- <input> = membuat elemen input -->
+<!-- <button> = Membuat tombol yang bisa di klik -->
+<!-- <img> = Menampilkan gambar di halaman browser -->
+<!-- <video> = Menyisipkan video di halaman browser -->
+<!-- <div> = mengelompokkan elemen-elemen lain -->
+<!-- <a> =  Membuat hyperlink (tautan) yang bisa diklik untuk mengarahkan pengguna ke halaman atau URL lain. -->
+
+<!-- ------------------------ FUNGSI - FUNGSI TAG HTML --------------------------------- -->
